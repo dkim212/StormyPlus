@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Stormy+</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_title">Error! Error! Error!</string>
+    <string name="error_message">Network not found. Please make sure you are connected to the internet then press the refresh button.</string>
+    <string name="seekbar_message">Select hour to view.</string>
+    <string name="error_ok_button">OK</string>
+    <string name="error_retry_button">Retry</string>
+    <string name="toast_network_unavailable">Network is unavailable.</string>
+
+    <string name="location_new_york">New York, NY</string>
+    <string name="location_boston">Boston, MA</string>
+    <string name="location_san_fransisco">San Francisco, CA</string>
+    <string name="location_current">Current Location, Your place</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="about">"Stormy+ is a student-made improvement over Ben Jakuben's weather app, Stormy. \n"
+            "This app provides basic weather data to the user, provided by forecast.io's weather API. \n"
+            "New features have been added, including a nicer UI, current location feature, and wind speed. \n"
+            "\n"
+            "Things of note:\n"
+            "Wind speed is measured by meters per second. \n"
+            "All data is pulled from forecast.io, via the website's developer API.\n"
+            "\n"
+            "Credits: Ben Jakuben (original code and tutorial), Treehouse, Daniel Kim \n"</string>
+</resources>

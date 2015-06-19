@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical" >
+    <TextView android:id="@+id/hour"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:textStyle="bold"
+              android:text="In the next 0 hour(s)"/>
+    <SeekBar android:id="@+id/hour_seek"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/hour_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:id="@+id/hour_cancel"/>
+    </LinearLayout>
+
+</LinearLayout>
